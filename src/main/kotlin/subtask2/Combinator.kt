@@ -10,7 +10,7 @@ class Combinator {
         var combinations = 1
 
         for(numberOfColorsForEachPoster in 1..numberOfAvailableColors) {
-            
+
             combinations = combinations * numberOfAvailableColors / numberOfColorsForEachPoster
 
             if( numberOfPosters == combinations ) {
